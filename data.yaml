@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Helmet', 'No-Helmet', 'helm', 'mobil', 'motor', 'no-helm', 'pejalankaki', 'platnomor', 'zebracross']
+
+roboflow:
+  workspace: telkom-university-sbs7t
+  project: traffic-violation-detection-s1tre
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/telkom-university-sbs7t/traffic-violation-detection-s1tre/dataset/1
